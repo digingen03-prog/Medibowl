@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Official Medibowl Color Variables */
+  --brand-navy: #032666;
+  --brand-blue: #043784;
+  --brand-corporate-blue: #034EA6;
+  --brand-gold: #D4AF37;
+  --brand-champagne: #E7C15B;
+  
+  --background: #FFFFFF;
+  --background-soft: #F7F9FA;
+  --background-alt: #EDF2F7;
+  
+  --text-primary: #172B4D;
+  --text-muted: #5E6C84;
+  --border: #E2E8F0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color: var(--text-primary);
+    background-color: var(--background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Prevent iOS auto-zoom on inputs */
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  main {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  ::selection {
+    background-color: #032666;
+    color: #D4AF37;
+  }
+}
+
+/* Accessible focus styling */
+:focus-visible {
+  outline: 2px solid #D4AF37;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

@@ -29,8 +29,8 @@ export function BrandLogo({
 
   const logoSrc =
     variant === "dark"
-      ? "/logos/medibowl-logo-white.svg"
-      : "/logos/medibowl-logo.svg";
+      ? "/logos/medibowl-actual-logo-transparent.png"
+      : "/logos/medibowl-actual-logo-transparent.png";
 
   return (
     <Link
@@ -45,7 +45,7 @@ export function BrandLogo({
           width={width}
           height={height}
           priority
-          className="h-7 xs:h-9 md:h-11 w-auto max-w-[160px] xs:max-w-[210px] sm:max-w-none object-contain transition-opacity duration-200 group-hover:opacity-95"
+          className="h-9 xs:h-11 md:h-12 w-auto max-w-[190px] xs:max-w-[240px] sm:max-w-none object-contain transition-opacity duration-200 group-hover:opacity-95"
           style={{ width: "auto" }}
         />
       </div>

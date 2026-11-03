@@ -45,7 +45,7 @@ export const metadata: Metadata = {
       "A trusted international corporate partner for pharmaceutical sourcing, hospital supplies, and cross-border healthcare product distribution.",
     images: [
       {
-        url: "/logos/medibowl-logo.svg",
+        url: "/logos/medibowl-actual-logo-transparent.png",
         width: 1200,
         height: 630,
         alt: "Medibowl International Private Limited Corporate Logo",
@@ -57,8 +57,13 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/logos/medibowl-emblem.svg",
-    apple: "/logos/medibowl-emblem.svg",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "512x512", type: "image/png" },
+    ],
   },
 };
 

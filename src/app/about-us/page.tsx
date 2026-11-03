@@ -106,17 +106,19 @@ export default function AboutUsPage() {
             </div>
 
             <div className="lg:col-span-5">
-              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-[#E2E8F0]">
-                <Image
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop"
-                  alt="Pharmaceutical Laboratory and Research Excellence"
-                  width={600}
-                  height={500}
-                  className="object-cover w-full h-[380px]"
-                />
+              <div className="relative rounded-2xl overflow-hidden shadow-xl border border-[#E2E8F0] group">
+                <div className="relative w-full h-[380px] bg-slate-100">
+                  <Image
+                    src="/corporate-foundation-vision-in-action.webp"
+                    alt="Corporate Foundation - Vision in Action | Medibowl International"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
                 <div className="p-6 bg-[#032666] text-white">
                   <span className="text-xs font-bold uppercase tracking-wider text-[#D4AF37] block mb-1">
-                    Corporate Integrity
+                    Corporate Integrity & Vision in Action
                   </span>
                   <p className="text-xs text-slate-200 leading-relaxed">
                     Registered entity under the Companies Act, operating with transparent commercial standards and rigorous verification of manufacturing sources.

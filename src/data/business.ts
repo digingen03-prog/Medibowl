@@ -24,7 +24,7 @@ export const BUSINESS_VERTICALS: BusinessVertical[] = [
     headline: "Your Reliable Pharmaceutical Procurement Partner",
     badge: "Institutional & Enterprise",
     intro: "Medibowl International Private Limited works directly with commercial healthcare buyers, wholesale distributors, pharmacy retail chains, and hospital procurement departments to ensure dependable, cost-efficient, and transparent pharmaceutical sourcing.",
-    heroImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1920&auto=format&fit=crop",
+    heroImage: "/three-core-commercial-verticals/b2b-procurement-partner.png",
     targetAudience: [
       "Pharmaceutical Distributors & Stockists",
       "Pharmaceutical Wholesalers & Traders",
@@ -63,7 +63,7 @@ export const BUSINESS_VERTICALS: BusinessVertical[] = [
     headline: "Making Healthcare Products More Accessible",
     badge: "Consumer & Patient Access",
     intro: "Medibowl International is dedicated to facilitating broader, reliable access to essential medications, wellness products, and everyday healthcare consumables for patients and individual consumers—under strict clinical and regulatory supervision.",
-    heroImage: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=1920&auto=format&fit=crop",
+    heroImage: "/three-core-commercial-verticals/b2c-accessible-healthcare.png",
     targetAudience: [
       "Individual Patients & Families",
       "Caregivers Managing Chronic Illnesses",
@@ -99,7 +99,7 @@ export const BUSINESS_VERTICALS: BusinessVertical[] = [
     headline: "Taking Pharmaceutical & Healthcare Products Beyond Borders",
     badge: "Cross-Border Trade",
     intro: "As an emerging player in global pharmaceutical trade, Medibowl International connects quality Indian and international healthcare manufacturers with global healthcare markets, facilitating transparent and compliant export workflows across 7 target continents and regions.",
-    heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1920&auto=format&fit=crop",
+    heroImage: "/three-core-commercial-verticals/international-exports-beyond-borders.png",
     targetAudience: [
       "International Pharmaceutical Importers",
       "Regional Pharmaceutical Wholesalers & Stockists",

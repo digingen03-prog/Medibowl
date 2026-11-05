@@ -126,7 +126,7 @@ export function Header() {
       {/* Main Navigation Bar */}
       <div
         className={`w-full bg-white transition-all duration-200 border-b border-[#E2E8F0] ${
-          isScrolled ? "shadow-md py-2" : "py-2.5 sm:py-3"
+          isScrolled ? "shadow-md py-1.5 sm:py-2" : "py-1.5 sm:py-2.5 lg:py-3"
         }`}
       >
         <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-8 flex items-center justify-between gap-2 xl:gap-4">
@@ -282,21 +282,21 @@ export function Header() {
           <div className="flex xl:hidden items-center gap-1.5 sm:gap-2">
             <Link
               href="/contact-us"
-              className="hidden xs:inline-flex px-2.5 py-1.5 text-xs font-bold uppercase tracking-wider text-[#032666] bg-[#D4AF37] rounded-md transition-colors hover:bg-[#E7C15B]"
+              className="hidden xs:inline-flex px-2 py-1 text-[11px] font-bold uppercase tracking-wider text-[#032666] bg-[#D4AF37] rounded-md transition-colors hover:bg-[#E7C15B]"
             >
               RFQ
             </Link>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 text-[#032666] hover:bg-slate-100 rounded-md focus:outline-none focus:ring-2 focus:ring-[#032666]"
+              className="p-1.5 sm:p-2 text-[#032666] hover:bg-slate-100 rounded-md focus:outline-none focus:ring-2 focus:ring-[#032666]"
               aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? (
-                <X className="w-6 h-6" />
+                <X className="w-5 h-5 sm:w-6 sm:h-6" />
               ) : (
-                <Menu className="w-6 h-6" />
+                <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
               )}
             </button>
           </div>

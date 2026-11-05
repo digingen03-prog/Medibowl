@@ -17,20 +17,17 @@ export function BrandLogo({
   showTagline = true,
   size = "md",
 }: BrandLogoProps) {
-  // Height configurations tuned for crispness and optimal header proportion
+  // Height configurations tuned for crispness and prominent header branding
   const heightMap = {
-    sm: 36,
-    md: 44,
-    lg: 54,
+    sm: 42,
+    md: 52,
+    lg: 64,
   };
 
   const height = heightMap[size];
-  const width = Math.round(height * (620 / 120)); // natural aspect ratio 620:120
+  const width = Math.round(height * (980 / 200)); // aspect ratio 980:200 (~4.9:1)
 
-  const logoSrc =
-    variant === "dark"
-      ? "/logos/medibowl-actual-logo-transparent.png"
-      : "/logos/medibowl-actual-logo-transparent.png";
+  const logoSrc = "/logos/medibowl-horizontal-logo.png";
 
   return (
     <Link
@@ -45,7 +42,7 @@ export function BrandLogo({
           width={width}
           height={height}
           priority
-          className="h-9 xs:h-11 md:h-12 w-auto max-w-[190px] xs:max-w-[240px] sm:max-w-none object-contain transition-opacity duration-200 group-hover:opacity-95"
+          className="h-10 sm:h-11 md:h-12 lg:h-[50px] w-auto max-w-[210px] xs:max-w-[250px] sm:max-w-[280px] md:max-w-none object-contain transition-opacity duration-200 group-hover:opacity-95"
           style={{ width: "auto" }}
         />
       </div>

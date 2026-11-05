@@ -126,12 +126,12 @@ export function Header() {
       {/* Main Navigation Bar */}
       <div
         className={`w-full bg-white transition-all duration-200 border-b border-[#E2E8F0] ${
-          isScrolled ? "shadow-md py-1.5 sm:py-2" : "py-1.5 sm:py-2.5 lg:py-3"
+          isScrolled ? "shadow-md py-1 sm:py-2" : "py-1 sm:py-2.5 lg:py-3"
         }`}
       >
         <div className="max-w-[1440px] 2xl:max-w-[1600px] mx-auto px-3 sm:px-6 lg:px-8 flex items-center justify-between gap-2 xl:gap-4">
           {/* Brand Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center">
             <BrandLogo size={isScrolled ? "sm" : "md"} />
           </div>
 

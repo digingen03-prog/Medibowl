@@ -25,7 +25,7 @@ export function BrandLogo({
   };
 
   const height = heightMap[size];
-  const width = Math.round(height * (866 / 288)); // aspect ratio ~3.0:1
+  const width = Math.round(height * (807 / 231)); // aspect ratio ~3.49:1
 
   const logoSrc = "/logos/logo.png";
 
@@ -42,7 +42,7 @@ export function BrandLogo({
           width={width}
           height={height}
           priority
-          className="h-8 xs:h-9 sm:h-11 md:h-12 lg:h-14 w-auto max-w-[180px] xs:max-w-[220px] sm:max-w-[260px] md:max-w-none object-contain transition-opacity duration-200 group-hover:opacity-95"
+          className="h-[46px] sm:h-12 md:h-13 lg:h-14 w-auto max-w-[220px] sm:max-w-[280px] md:max-w-none object-contain transition-opacity duration-200 group-hover:opacity-95"
           style={{ width: "auto" }}
         />
       </div>

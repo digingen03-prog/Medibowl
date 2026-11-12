@@ -10,6 +10,7 @@ export interface ProductCategory {
   subcategories: {
     name: string;
     description: string;
+    image?: string;
   }[];
   keyBenefits: string[];
   procurementSpecs: string[];
@@ -26,17 +27,61 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/generic-medicines.webp",
     heroImage: "/seven-strategic-portfolios/generic-medicines.webp",
     subcategories: [
-      { name: "Tablets & Capsules", description: "Solid oral dosage forms encompassing immediate-release, sustained-release, and enteric-coated formulations." },
-      { name: "Antibiotics & Antimicrobials", description: "Broad-spectrum and targeted antibacterial, antifungal, and antiviral formulations for infection control." },
-      { name: "Analgesics & Anti-inflammatory Medicines", description: "Pain management medicines, non-steroidal anti-inflammatory drugs (NSAIDs), and antipyretics." },
-      { name: "Cardiovascular Medicines", description: "Antihypertensives, statins, beta-blockers, ACE inhibitors, and antiarrhythmic therapies." },
-      { name: "Diabetes & Endocrinology Products", description: "Oral hypoglycaemic agents, insulin sensitisers, and metabolic support therapies." },
-      { name: "Gastrointestinal Medicines", description: "Proton pump inhibitors (PPIs), antacids, antiemetics, and gastroprokinetic agents." },
-      { name: "Respiratory Medicines", description: "Bronchodilators, antihistamines, antiasthmatics, and oral expectorant combinations." },
-      { name: "Neurology & Psychiatry Products", description: "Anticonvulsants, mood stabilisers, anxiolytics, and central nervous system therapeutics." },
-      { name: "Dermatology Products", description: "Topical antifungal, antibacterial, corticosteroid creams, ointments, and medicinal lotions." },
-      { name: "Vitamins & Nutritional Supplements", description: "Multivitamin complexes, essential minerals, iron preparations, and nutritional adjuncts." },
-      { name: "Other Therapeutic Formulations", description: "Diverse specialized formulations catering to specific institutional and regional clinical needs." }
+      {
+        name: "Tablets & Capsules",
+        description: "Solid oral dosage forms encompassing immediate-release, sustained-release, and enteric-coated formulations.",
+        image: "/generic-medicines/tablets-and-capsules.webp",
+      },
+      {
+        name: "Antibiotics & Antimicrobials",
+        description: "Broad-spectrum and targeted antibacterial, antifungal, and antiviral formulations for infection control.",
+        image: "/generic-medicines/antibiotics-and-antimicrobials.webp",
+      },
+      {
+        name: "Analgesics & Anti-inflammatory Medicines",
+        description: "Pain management medicines, non-steroidal anti-inflammatory drugs (NSAIDs), and antipyretics.",
+        image: "/generic-medicines/analgesics-and-anti-inflammatory.webp",
+      },
+      {
+        name: "Cardiovascular Medicines",
+        description: "Antihypertensives, statins, beta-blockers, ACE inhibitors, and antiarrhythmic therapies.",
+        image: "/generic-medicines/cardiovascular-medicines.webp",
+      },
+      {
+        name: "Diabetes & Endocrinology Products",
+        description: "Oral hypoglycaemic agents, insulin sensitisers, and metabolic support therapies.",
+        image: "/generic-medicines/diabetes-and-endocrinology.webp",
+      },
+      {
+        name: "Gastrointestinal Medicines",
+        description: "Proton pump inhibitors (PPIs), antacids, antiemetics, and gastroprokinetic agents.",
+        image: "/generic-medicines/gastrointestinal-medicines.webp",
+      },
+      {
+        name: "Respiratory Medicines",
+        description: "Bronchodilators, antihistamines, antiasthmatics, and oral expectorant combinations.",
+        image: "/generic-medicines/respiratory-medicines.webp",
+      },
+      {
+        name: "Neurology & Psychiatry Products",
+        description: "Anticonvulsants, mood stabilisers, anxiolytics, and central nervous system therapeutics.",
+        image: "/generic-medicines/neurology-and-psychiatry.webp",
+      },
+      {
+        name: "Dermatology Products",
+        description: "Topical antifungal, antibacterial, corticosteroid creams, ointments, and medicinal lotions.",
+        image: "/generic-medicines/dermatology-products.webp",
+      },
+      {
+        name: "Vitamins & Nutritional Supplements",
+        description: "Multivitamin complexes, essential minerals, iron preparations, and nutritional adjuncts.",
+        image: "/generic-medicines/vitamins-and-nutritional-supplements.webp",
+      },
+      {
+        name: "Other Therapeutic Formulations",
+        description: "Diverse specialized formulations catering to specific institutional and regional clinical needs.",
+        image: "/generic-medicines/other-therapeutic-formulations.webp",
+      }
     ],
     keyBenefits: [
       "Rigorous adherence to international pharmacopoeial standards",

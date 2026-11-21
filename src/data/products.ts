@@ -105,12 +105,36 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/branded-medicines.webp",
     heroImage: "/seven-strategic-portfolios/branded-medicines.webp",
     subcategories: [
-      { name: "Prescription Medicines", description: "Clinically monitored prescription-only pharmaceuticals covering primary and specialty care." },
-      { name: "Specialty Branded Formulations", description: "High-tier branded drugs designed for complex therapeutic indications." },
-      { name: "Chronic Therapy Medicines", description: "Long-term therapeutic management lines for cardiovascular, neurological, and metabolic conditions." },
-      { name: "Acute Care Medicines", description: "Fast-acting hospital-grade branded emergency and acute therapeutic formulations." },
-      { name: "Hospital-use Medicines", description: "Restricted and institutional-use formulations intended for supervised hospital administration." },
-      { name: "Other Branded Pharmaceutical Products", description: "Specialized ethical branded product lines sourced on client request." }
+      {
+        name: "Prescription Medicines",
+        description: "Clinically monitored prescription-only pharmaceuticals covering primary and specialty care.",
+        image: "/branded-medicines/prescription-medicines.webp",
+      },
+      {
+        name: "Specialty Branded Formulations",
+        description: "High-tier branded drugs designed for complex therapeutic indications.",
+        image: "/branded-medicines/specialty-branded-formulations.webp",
+      },
+      {
+        name: "Chronic Therapy Medicines",
+        description: "Long-term therapeutic management lines for cardiovascular, neurological, and metabolic conditions.",
+        image: "/branded-medicines/chronic-therapy-medicines.webp",
+      },
+      {
+        name: "Acute Care Medicines",
+        description: "Fast-acting hospital-grade branded emergency and acute therapeutic formulations.",
+        image: "/branded-medicines/acute-care-medicines.webp",
+      },
+      {
+        name: "Hospital-use Medicines",
+        description: "Restricted and institutional-use formulations intended for supervised hospital administration.",
+        image: "/branded-medicines/hospital-use-medicines.webp",
+      },
+      {
+        name: "Other Branded Pharmaceutical Products",
+        description: "Specialized ethical branded product lines sourced on client request.",
+        image: "/branded-medicines/other-branded-medicines.webp",
+      }
     ],
     keyBenefits: [
       "Authentic product sourcing with verifiable manufacturer provenance",
@@ -134,15 +158,51 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/surgical-products.webp",
     heroImage: "/seven-strategic-portfolios/surgical-products.webp",
     subcategories: [
-      { name: "Surgical Instruments", description: "High-grade stainless steel forceps, scissors, scalpels, retractors, and needle holders." },
-      { name: "General Surgical Supplies", description: "Disposable surgical packs, drapes, suction handles, and sterile surgical tubing." },
-      { name: "Sterile Surgical Products", description: "ETO or Gamma irradiated sterile surgical disposables ensuring immediate clinical readiness." },
-      { name: "Dressing Materials", description: "Sterile surgical dressings, cotton wool rolls, absorbent pads, and surgical tapes." },
-      { name: "Surgical Gloves", description: "Sterile latex and nitrile surgical gloves offering micro-texture and high tactile sensitivity." },
-      { name: "Surgical Masks", description: "Fluid-resistant 3-ply and N95 surgical masks ensuring high bacterial filtration efficiency (BFE)." },
-      { name: "Wound Care Products", description: "Advanced hydrocolloid, alginate, foam dressings, and skin closure adhesives." },
-      { name: "Operating Theatre Supplies", description: "Sterile surgical gowns, mayo stand covers, light handle covers, and cautery accessories." },
-      { name: "Procedure-related Consumables", description: "Customized procedural kits for catheterization, suturing, and minor surgical interventions." }
+      {
+        name: "Surgical Instruments",
+        description: "High-grade stainless steel forceps, scissors, scalpels, retractors, and needle holders.",
+        image: "/surgical-products/surgical-instruments.webp",
+      },
+      {
+        name: "General Surgical Supplies",
+        description: "Disposable surgical packs, drapes, suction handles, and sterile surgical tubing.",
+        image: "/surgical-products/general-surgical-supplies.webp",
+      },
+      {
+        name: "Sterile Surgical Products",
+        description: "ETO or Gamma irradiated sterile surgical disposables ensuring immediate clinical readiness.",
+        image: "/surgical-products/sterile-surgical-products.webp",
+      },
+      {
+        name: "Dressing Materials",
+        description: "Sterile surgical dressings, cotton wool rolls, absorbent pads, and surgical tapes.",
+        image: "/surgical-products/dressing-materials.webp",
+      },
+      {
+        name: "Surgical Gloves",
+        description: "Sterile latex and nitrile surgical gloves offering micro-texture and high tactile sensitivity.",
+        image: "/surgical-products/surgical-gloves.webp",
+      },
+      {
+        name: "Surgical Masks",
+        description: "Fluid-resistant 3-ply and N95 surgical masks ensuring high bacterial filtration efficiency (BFE).",
+        image: "/surgical-products/surgical-masks.webp",
+      },
+      {
+        name: "Wound Care Products",
+        description: "Advanced hydrocolloid, alginate, foam dressings, and skin closure adhesives.",
+        image: "/surgical-products/wound-care-products.webp",
+      },
+      {
+        name: "Operating Theatre Supplies",
+        description: "Sterile surgical gowns, mayo stand covers, light handle covers, and cautery accessories.",
+        image: "/surgical-products/operating-theatre-supplies.webp",
+      },
+      {
+        name: "Procedure-related Consumables",
+        description: "Customized procedural kits for catheterization, suturing, and minor surgical interventions.",
+        image: "/surgical-products/procedure-related-consumables.webp",
+      }
     ],
     keyBenefits: [
       "Medical-grade surgical stainless steel and hypoallergenic polymers",
@@ -166,16 +226,56 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/medical-consumables.webp",
     heroImage: "/seven-strategic-portfolios/medical-consumables.webp",
     subcategories: [
-      { name: "Disposable Syringes & Needles", description: "2-part and 3-part sterile syringes with ultra-sharp luer-slip or luer-lock hypodermic needles." },
-      { name: "IV Cannulas & Infusion Sets", description: "Teflon / FEP intravenous cannulas with injection ports and wings across gauges 14G to 26G." },
-      { name: "IV Administration Sets", description: "Vented and non-vented infusion sets with precision roller clamps and integrated bacterial filters." },
-      { name: "Examination Gloves", description: "Non-sterile latex, nitrile, and vinyl examination gloves for everyday clinical examination." },
-      { name: "Face Masks & Protective Wear", description: "Surgical masks, splash aprons, isolation gowns, shoe covers, and protective face shields." },
-      { name: "Medical Tubes & Catheters", description: "Foley balloon catheters, suction catheters, nasogastric tubes, and thoracic drainage tubes." },
-      { name: "Gauze & Bandages", description: "Absorbent gauze swabs, crepe bandages, conforming bandages, and elastic adhesive rolls." },
-      { name: "Wound Dressings", description: "Waterproof transparent film dressings, paraffin gauze, and post-operative island dressings." },
-      { name: "Disposable Medical Products", description: "Urine collection bags, bed underpads, specimen containers, and umbilical cord clamps." },
-      { name: "Infection Prevention Supplies", description: "Surface disinfectant wipes, hand sanitizing preparations, and biohazard containment liners." }
+      {
+        name: "Disposable Syringes & Needles",
+        description: "2-part and 3-part sterile syringes with ultra-sharp luer-slip or luer-lock hypodermic needles.",
+        image: "/medical-consumables/disposable-syringes-and-needles.webp",
+      },
+      {
+        name: "IV Cannulas & Infusion Sets",
+        description: "Teflon / FEP intravenous cannulas with injection ports and wings across gauges 14G to 26G.",
+        image: "/medical-consumables/iv-cannulas-and-infusion-sets.webp",
+      },
+      {
+        name: "IV Administration Sets",
+        description: "Vented and non-vented infusion sets with precision roller clamps and integrated bacterial filters.",
+        image: "/medical-consumables/iv-administration-sets.webp",
+      },
+      {
+        name: "Examination Gloves",
+        description: "Non-sterile latex, nitrile, and vinyl examination gloves for everyday clinical examination.",
+        image: "/medical-consumables/examination-gloves.webp",
+      },
+      {
+        name: "Face Masks & Protective Wear",
+        description: "Surgical masks, splash aprons, isolation gowns, shoe covers, and protective face shields.",
+        image: "/medical-consumables/face-masks-and-protective-wear.webp",
+      },
+      {
+        name: "Medical Tubes & Catheters",
+        description: "Foley balloon catheters, suction catheters, nasogastric tubes, and thoracic drainage tubes.",
+        image: "/medical-consumables/medical-tubes-and-catheters.webp",
+      },
+      {
+        name: "Gauze & Bandages",
+        description: "Absorbent gauze swabs, crepe bandages, conforming bandages, and elastic adhesive rolls.",
+        image: "/medical-consumables/gauze-and-bandages.webp",
+      },
+      {
+        name: "Wound Dressings",
+        description: "Waterproof transparent film dressings, paraffin gauze, and post-operative island dressings.",
+        image: "/medical-consumables/wound-dressings.webp",
+      },
+      {
+        name: "Disposable Medical Products",
+        description: "Urine collection bags, bed underpads, specimen containers, and umbilical cord clamps.",
+        image: "/medical-consumables/disposable-medical-products.webp",
+      },
+      {
+        name: "Infection Prevention Supplies",
+        description: "Surface disinfectant wipes, hand sanitizing preparations, and biohazard containment liners.",
+        image: "/medical-consumables/infection-prevention-supplies.webp",
+      }
     ],
     keyBenefits: [
       "Non-toxic, pyrogen-free medical grade polymers",
@@ -199,14 +299,46 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/speciality-pharmaceuticals.webp",
     heroImage: "/seven-strategic-portfolios/speciality-pharmaceuticals.webp",
     subcategories: [
-      { name: "Critical Care Medicines", description: "Vasopressors, inotropes, emergency antiarrhythmics, and parenteral resuscitation drugs." },
-      { name: "Injectable Formulations", description: "Sterile small and large volume parenterals, lyophilized powders for reconstitution, and prefilled ampoules." },
-      { name: "Anaesthesia Products", description: "General and local anaesthetic agents, neuromuscular blocking drugs, and reversal formulations." },
-      { name: "Immunological Products", description: "Immune globulins, tetanus antitoxins, specialized antisera, and therapeutic vaccines." },
-      { name: "Hormonal Preparations", description: "Corticosteroids, thyroid therapies, fertility hormones, and systemic endocrine regulators." },
-      { name: "Speciality Therapeutic Medicines", description: "Targeted therapies for nephrology, rheumatology, and advanced metabolic disorders." },
-      { name: "High-value Pharmaceutical Products", description: "Specialized biologics, plasma derivatives, and enzyme replacement therapies." },
-      { name: "Other Speciality Formulations", description: "Custom hospital formulations and emergency procurement on clinical request." }
+      {
+        name: "Critical Care Medicines",
+        description: "Vasopressors, inotropes, emergency antiarrhythmics, and parenteral resuscitation drugs.",
+        image: "/speciality-pharmaceuticals/critical-care-medicines.webp",
+      },
+      {
+        name: "Injectable Formulations",
+        description: "Sterile small and large volume parenterals, lyophilized powders for reconstitution, and prefilled ampoules.",
+        image: "/speciality-pharmaceuticals/injectable-formulations.webp",
+      },
+      {
+        name: "Anaesthesia Products",
+        description: "General and local anaesthetic agents, neuromuscular blocking drugs, and reversal formulations.",
+        image: "/speciality-pharmaceuticals/anaesthesia-products.webp",
+      },
+      {
+        name: "Immunological Products",
+        description: "Immune globulins, tetanus antitoxins, specialized antisera, and therapeutic vaccines.",
+        image: "/speciality-pharmaceuticals/immunological-products.webp",
+      },
+      {
+        name: "Hormonal Preparations",
+        description: "Corticosteroids, thyroid therapies, fertility hormones, and systemic endocrine regulators.",
+        image: "/speciality-pharmaceuticals/hormonal-preparations.webp",
+      },
+      {
+        name: "Speciality Therapeutic Medicines",
+        description: "Targeted therapies for nephrology, rheumatology, and advanced metabolic disorders.",
+        image: "/speciality-pharmaceuticals/speciality-therapeutic-medicines.webp",
+      },
+      {
+        name: "High-value Pharmaceutical Products",
+        description: "Specialized biologics, plasma derivatives, and enzyme replacement therapies.",
+        image: "/speciality-pharmaceuticals/high-value-pharmaceuticals.webp",
+      },
+      {
+        name: "Other Speciality Formulations",
+        description: "Custom hospital formulations and emergency procurement on clinical request.",
+        image: "/speciality-pharmaceuticals/other-speciality-formulations.webp",
+      }
     ],
     keyBenefits: [
       "Strict temperature-controlled end-to-end cold-chain logistics (2°C - 8°C / -20°C)",
@@ -230,13 +362,41 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/oncology-products.webp",
     heroImage: "/seven-strategic-portfolios/oncology-products.webp",
     subcategories: [
-      { name: "Oncology Tablets & Capsules", description: "Oral antineoplastic therapies, tyrosine kinase inhibitors (TKIs), and hormone receptor modulators." },
-      { name: "Oncology Injectables", description: "Cytotoxic infusions, platinum-based complexes, taxanes, and antimetabolite solutions." },
-      { name: "Chemotherapy Medicines", description: "Standard therapeutic chemotherapy regimens covering solid tumors and hematologic malignancies." },
-      { name: "Targeted Therapy Products", description: "Monoclonal antibodies and targeted molecular inhibitors for precision oncology care." },
-      { name: "Supportive Oncology Medicines", description: "Antiemetics (5-HT3 antagonists, NK1 inhibitors), colony stimulating factors, and bone protective agents." },
-      { name: "Haematology-related Medicines", description: "Therapies for leukemia, lymphoma, multiple myeloma, and severe aplastic anemias." },
-      { name: "Other Specialized Oncology Products", description: "Adjuvant antineoplastics and specialized cytotoxic formulations upon verification." }
+      {
+        name: "Oncology Tablets & Capsules",
+        description: "Oral antineoplastic therapies, tyrosine kinase inhibitors (TKIs), and hormone receptor modulators.",
+        image: "/oncology-products/oncology-tablets-and-capsules.webp",
+      },
+      {
+        name: "Oncology Injectables",
+        description: "Cytotoxic infusions, platinum-based complexes, taxanes, and antimetabolite solutions.",
+        image: "/oncology-products/oncology-injectables.webp",
+      },
+      {
+        name: "Chemotherapy Medicines",
+        description: "Standard therapeutic chemotherapy regimens covering solid tumors and hematologic malignancies.",
+        image: "/oncology-products/chemotherapy-medicines.webp",
+      },
+      {
+        name: "Targeted Therapy Products",
+        description: "Monoclonal antibodies and targeted molecular inhibitors for precision oncology care.",
+        image: "/oncology-products/targeted-therapy-products.webp",
+      },
+      {
+        name: "Supportive Oncology Medicines",
+        description: "Antiemetics (5-HT3 antagonists, NK1 inhibitors), colony stimulating factors, and bone protective agents.",
+        image: "/oncology-products/supportive-oncology-medicines.webp",
+      },
+      {
+        name: "Haematology-related Medicines",
+        description: "Therapies for leukemia, lymphoma, multiple myeloma, and severe aplastic anemias.",
+        image: "/oncology-products/haematology-related-medicines.webp",
+      },
+      {
+        name: "Other Specialized Oncology Products",
+        description: "Adjuvant antineoplastics and specialized cytotoxic formulations upon verification.",
+        image: "/oncology-products/other-specialized-oncology.webp",
+      }
     ],
     keyBenefits: [
       "Verified manufacturer sources with strict compliance to antineoplastic standards",
@@ -260,16 +420,56 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     cardImage: "/seven-strategic-portfolios/medical-equipment.webp",
     heroImage: "/seven-strategic-portfolios/medical-equipment.webp",
     subcategories: [
-      { name: "Patient Monitoring Systems", description: "Multi-parameter monitors tracking ECG, SpO2, NIBP, respiration, and temperature." },
-      { name: "Diagnostic Equipment", description: "Clinical ultrasound scanners, digital blood pressure units, glucometers, and otoscopes." },
-      { name: "Hospital Beds & Furniture", description: "ICU motorized beds, manual multi-function ward beds, bedside lockers, and overbed tables." },
-      { name: "ECG Machines", description: "Portable 3-channel and 12-channel electrocardiographs with built-in thermal printers and interpretation." },
-      { name: "Infusion & Syringe Pumps", description: "Micro-infusion syringe drivers and volumetric infusion pumps with multi-level occlusion alarms." },
-      { name: "Respiratory Care Equipment", description: "Medical nebulizers, BiPAP/CPAP systems, oxygen concentrators, and portable aspirators." },
-      { name: "Oxygen Therapy Equipment", description: "Medical gas regulators, flowmeters, oxygen cylinders, and humidified delivery systems." },
-      { name: "Laboratory Equipment", description: "Clinical centrifuges, biochemical analyzers, binocular microscopes, and hematology counters." },
-      { name: "Emergency & Critical Care Equipment", description: "Automated External Defibrillators (AEDs), multiparameter transport monitors, and crash carts." },
-      { name: "Other Medical Devices", description: "Pulse oximeters, medical phototherapy units, and specialized clinical devices." }
+      {
+        name: "Patient Monitoring Systems",
+        description: "Multi-parameter monitors tracking ECG, SpO2, NIBP, respiration, and temperature.",
+        image: "/medical-equipment/patient-monitoring-systems.webp",
+      },
+      {
+        name: "Diagnostic Equipment",
+        description: "Clinical ultrasound scanners, digital blood pressure units, glucometers, and otoscopes.",
+        image: "/medical-equipment/diagnostic-equipment.webp",
+      },
+      {
+        name: "Hospital Beds & Furniture",
+        description: "ICU motorized beds, manual multi-function ward beds, bedside lockers, and overbed tables.",
+        image: "/medical-equipment/hospital-beds-and-furniture.webp",
+      },
+      {
+        name: "ECG Machines",
+        description: "Portable 3-channel and 12-channel electrocardiographs with built-in thermal printers and interpretation.",
+        image: "/medical-equipment/ecg-machines.webp",
+      },
+      {
+        name: "Infusion & Syringe Pumps",
+        description: "Micro-infusion syringe drivers and volumetric infusion pumps with multi-level occlusion alarms.",
+        image: "/medical-equipment/infusion-and-syringe-pumps.webp",
+      },
+      {
+        name: "Respiratory Care Equipment",
+        description: "Medical nebulizers, BiPAP/CPAP systems, oxygen concentrators, and portable aspirators.",
+        image: "/medical-equipment/respiratory-care-equipment.webp",
+      },
+      {
+        name: "Oxygen Therapy Equipment",
+        description: "Medical gas regulators, flowmeters, oxygen cylinders, and humidified delivery systems.",
+        image: "/medical-equipment/oxygen-therapy-equipment.webp",
+      },
+      {
+        name: "Laboratory Equipment",
+        description: "Clinical centrifuges, biochemical analyzers, binocular microscopes, and hematology counters.",
+        image: "/medical-equipment/laboratory-equipment.webp",
+      },
+      {
+        name: "Emergency & Critical Care Equipment",
+        description: "Automated External Defibrillators (AEDs), multiparameter transport monitors, and crash carts.",
+        image: "/medical-equipment/emergency-and-critical-care.webp",
+      },
+      {
+        name: "Other Medical Devices",
+        description: "Pulse oximeters, medical phototherapy units, and specialized clinical devices.",
+        image: "/medical-equipment/other-medical-devices.webp",
+      }
     ],
     keyBenefits: [
       "Rigorous pre-shipment quality inspection and electrical safety testing",

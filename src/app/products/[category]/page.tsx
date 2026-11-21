@@ -212,11 +212,13 @@ export default async function ProductCategoryPage({
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#032666]/40 via-transparent to-transparent pointer-events-none" />
-                    <div className="absolute top-3 left-3">
-                      <span className="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-[#032666]/90 text-[#D4AF37] shadow backdrop-blur-sm">
-                        #{idx + 1 < 10 ? `0${idx + 1}` : idx + 1}
-                      </span>
-                    </div>
+                    {category.slug !== "branded-medicines" && (
+                      <div className="absolute top-3 left-3">
+                        <span className="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-[#032666]/90 text-[#D4AF37] shadow backdrop-blur-sm">
+                          #{idx + 1 < 10 ? `0${idx + 1}` : idx + 1}
+                        </span>
+                      </div>
+                    )}
                   </div>
                 )}
 
